@@ -6,3 +6,103 @@
     --button-text-background-color:#408CFF1A;
     --header-button-background:#4058FF;
 }
+.fa-bars{
+    display: none;
+}
+header{
+    font-size: 20px;
+}
+.header-navbar img{
+    cursor: pointer;
+}
+.header-navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navbar .navbar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-navbar .navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-navbar .navbar ul li a{
+    color: var(--dark-color);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.header-navbar .navbar ul li a:hover{
+    color: var(--privery-dark-color);
+}
+.header-navbar .nav-button{
+    display: flex;
+    align-items: center;
+}
+.header-navbar .nav-button button{
+    font-size: 0.8em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header-navbar .nav-button button:nth-of-type(1){
+    background-color: transparent;
+    border: none;
+    color: var(--dark-color);
+    padding-right: 1rem;
+
+}
+.header-navbar .nav-button button:nth-of-type(1):hover{
+    color: var(--privery-dark-color);
+}
+.header-navbar .nav-button button:nth-of-type(2){
+    background-color: var(--button-text-background-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+}
+.header-navbar .nav-button button:nth-of-type(2):hover{
+    background-color: var(--header-button-background);
+    color: var(--prevery-color);
+}
+.header-external{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-external .external-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+.header-external .external-title h1{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: var(--privery-dark-color);
+}
+.header-external .external-title p{
+    color: var(--dark-color);
+    font-size: 1em;
+    font-weight: 500;
+}
+.header-external .external-title button{
+    font-size: 0.9em;
+    font-weight: 700;
+    color: var(--prevery-color);
+    background-color: var(--header-button-background);
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.header-external .external-title button:hover{
+    background-color: var(--button-text-background-color);
+    color: var(--button-text-color);
+}
